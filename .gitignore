@@ -39,3 +39,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# claude code (personal settings, keep the shared skills)
+.claude/settings.local.json
+
+# editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# OS junk
+Thumbs.db
+
+# supabase CLI (local dev state)
+supabase/.temp/
+supabase/.branches/
+
+# logs
+*.log
